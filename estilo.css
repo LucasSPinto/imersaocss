@@ -1,0 +1,35 @@
+/* Aula inicial :D */
+body {
+    background-image: url('https://rhsenior.com.br/wp-content/uploads/2015/04/fundo1.jpg');
+    background-size: auto 100vh;
+    font-family: arial;
+    color: black;
+    height: 100vh;
+  }
+  .menu{
+    background-color: white; 
+  }
+  .menu li{
+    list-style: none;
+  }
+  .menu ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  a{
+    text-decoration: none;
+    color: teal;
+  }
+  a:hover {
+    background-color: #cecece;
+    text-decoration: underline;
+  }
+  .site-title{
+    color: rgba(0,0,0,.7);
+    text-align: center;
+  }
+  .site-subtitle{
+   color: rgba(0,0,0,.5);
+    text-align: center;
+    font-style: italic;
+  }
